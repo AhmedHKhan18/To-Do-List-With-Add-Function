@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+}
+.maindiv{
+    background-color: brown;
+    height: 80vh;
+    width: 40vw;
+    margin: 5% 10% 0% 5%;
+    color: black;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+}
+input{
+    width: 25vw;
+    height: 5vh;
+    margin: 10% 1% 0 3%;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+button{
+    height: 5vh;
+    width: 5vw;
+    border-radius: 10px;
+    border: none;
+}
+#searchList{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 5% 10%;
+}
+#secondmainDiv{
+    background-color: brown;
+    height: 80vh;
+    width: 40vw;
+    margin: 5% 5%;
+    color: black;
+    display: flex;
+    /* justify-content: space-around; */
+    text-align: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+}
+#secondDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 5% 10%;
+}
+img{
+    height: 5vh;
+    position: absolute;
+    margin-top: 50px;
+}
+p{
+    display: inline;
+}
+#add{
+    margin: 0% 8%;
+}
+#delete{
+    margin: 0% 5%;
+
+}
